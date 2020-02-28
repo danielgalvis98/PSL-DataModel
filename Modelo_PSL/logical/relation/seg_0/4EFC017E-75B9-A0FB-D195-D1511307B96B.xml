@@ -10,7 +10,7 @@
 <identifying>false</identifying>
 <nameOnSource>question</nameOnSource>
 <nameOnTarget>answer</nameOnTarget>
-<optionalSource>false</optionalSource>
+<optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>B864979A-725F-FB79-4BBF-C1D207D082D2</sourceEntity>

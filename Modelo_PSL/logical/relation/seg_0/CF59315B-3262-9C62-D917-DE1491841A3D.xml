@@ -10,7 +10,7 @@
 <identifying>false</identifying>
 <nameOnSource>state</nameOnSource>
 <nameOnTarget>tickets</nameOnTarget>
-<optionalSource>false</optionalSource>
+<optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>4D851B31-9843-5F3B-DF8C-938B82295DB1</sourceEntity>

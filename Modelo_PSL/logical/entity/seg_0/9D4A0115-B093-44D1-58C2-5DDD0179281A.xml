@@ -65,6 +65,20 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id" id="A8C9C7F9-ED52-E30F-EAF8-30D96397B9C7">
+<createdBy>danig</createdBy>
+<createdTime>2020-02-28 03:23:34 UTC</createdTime>
+<generatorID>667FA6EB-93C7-2706-1BFC-B3532C1DCA26</generatorID>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<engineerTo>
+<item key="76C9B098-9A30-9056-4719-DB8A0AEB359A" value="true"/>
+</engineerTo>
+<referedAttribute>D0297F8A-BD07-48A3-F66E-F0E1F17C6B60</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="E0A154C2-66C8-28C5-E606-3920BCFE743F" name="Resources PK">

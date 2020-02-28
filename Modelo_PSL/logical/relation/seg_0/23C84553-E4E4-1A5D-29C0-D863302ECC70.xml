@@ -1,21 +1,19 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="External Ticket Source FK" directorySegmentName="seg_0" id="928EE548-E560-0A47-5A8B-F544E0F54452">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_22" directorySegmentName="seg_0" id="23C84553-E4E4-1A5D-29C0-D863302ECC70">
 <createdBy>danig</createdBy>
-<createdTime>2020-02-22 14:56:36 UTC</createdTime>
+<createdTime>2020-02-28 03:22:59 UTC</createdTime>
 <ownerDesignName>Modelo_PSL</ownerDesignName>
 <engineerTo>
 <item key="76C9B098-9A30-9056-4719-DB8A0AEB359A" value="true"/>
 </engineerTo>
-<sourcePk>7C91BF84-E57E-BF8A-7370-1CC5A1CEBEAA</sourcePk>
+<sourcePk>E1629C3E-4465-6C09-CA96-A55ACA30A247</sourcePk>
 <identifying>false</identifying>
-<nameOnSource>source</nameOnSource>
-<nameOnTarget>tickets</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>D17DE53D-CCDC-A86C-16DE-4D044766A8EC</sourceEntity>
+<sourceEntity>01B878C1-DAB1-AD42-FC2D-2759F2E80BFD</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>7A0AEB4B-1957-1196-0D1B-24F67475DFA4</targetEntity>
+<targetEntity>8AE24F7A-2716-C36C-33EF-8322C7EA71F9</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>

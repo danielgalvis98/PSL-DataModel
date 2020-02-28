@@ -39,6 +39,20 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id1" id="496D3671-FE80-39EE-4EC4-A09FD855C369">
+<createdBy>danig</createdBy>
+<createdTime>2020-02-28 03:22:47 UTC</createdTime>
+<generatorID>8A589451-B3E1-8D08-7377-ABB86054704C</generatorID>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<engineerTo>
+<item key="76C9B098-9A30-9056-4719-DB8A0AEB359A" value="true"/>
+</engineerTo>
+<referedAttribute>D0297F8A-BD07-48A3-F66E-F0E1F17C6B60</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="2815EF64-165C-7A52-FD00-39AE84BDB6F3" name="Ticket_State_PK">

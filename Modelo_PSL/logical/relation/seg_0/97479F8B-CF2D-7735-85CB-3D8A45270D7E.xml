@@ -10,8 +10,8 @@
 <identifying>false</identifying>
 <nameOnSource>rol</nameOnSource>
 <nameOnTarget>users</nameOnTarget>
-<optionalSource>false</optionalSource>
-<optionalTarget>true</optionalTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
 <sourceCardinality>*</sourceCardinality>
 <sourceEntity>8AE24F7A-2716-C36C-33EF-8322C7EA71F9</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>

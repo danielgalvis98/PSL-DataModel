@@ -10,7 +10,7 @@
 <identifying>false</identifying>
 <nameOnSource>created_by</nameOnSource>
 <nameOnTarget>tickets_created</nameOnTarget>
-<optionalSource>false</optionalSource>
+<optionalSource>true</optionalSource>
 <optionalTarget>true</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>9E172300-F5EF-7745-FF09-CA83A9E7D1EF</sourceEntity>
