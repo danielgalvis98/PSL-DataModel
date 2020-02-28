@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="383B248B-DFB9-293B-C65B-ECC1E91B9F4D" name="Source">
+<createdBy>danig</createdBy>
+<createdTime>2020-02-22 16:05:32 UTC</createdTime>
+<generatorID>D17DE53D-CCDC-A86C-16DE-4D044766A8EC</generatorID>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="4DD44481-CFDC-10BA-3913-B072123E8D90">
+<createdBy>danig</createdBy>
+<createdTime>2020-02-22 16:05:32 UTC</createdTime>
+<generatorID>9164F19B-358C-88B7-B3F5-3F83B2540348</generatorID>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="source_name" id="B66C0D76-A7A9-C386-68D5-32051F9587CD">
+<createdBy>danig</createdBy>
+<createdTime>2020-02-22 16:05:32 UTC</createdTime>
+<generatorID>5D1CBB3F-276D-D5D2-D595-8B15B7544F33</generatorID>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="140FDF58-36CA-5B42-5F3A-74A46365F0ED" name="Source_PK">
+<createdBy>danig</createdBy>
+<createdTime>2020-02-22 16:05:32 UTC</createdTime>
+<generatorID>7C91BF84-E57E-BF8A-7370-1CC5A1CEBEAA</generatorID>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4DD44481-CFDC-10BA-3913-B072123E8D90"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

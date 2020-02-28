@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="386A95B3-B18E-3054-671E-AC34924142C8" name="Answer">
+<createdBy>danig</createdBy>
+<createdTime>2020-02-25 14:34:18 UTC</createdTime>
+<generatorID>EAC1A2F4-6C4F-31DA-094B-1764E0238682</generatorID>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="a_id" id="B4AEAF92-2D15-68B6-4233-B79033750D3C">
+<createdBy>danig</createdBy>
+<createdTime>2020-02-25 14:34:18 UTC</createdTime>
+<generatorID>14F6A5DB-D952-8CB8-42B9-94539F7273F0</generatorID>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="is_accepted" id="F6A4829A-864C-545C-06E5-79D29BBB68BB">
+<createdBy>danig</createdBy>
+<createdTime>2020-02-25 14:34:18 UTC</createdTime>
+<generatorID>FDEE9468-8F79-6006-8CE5-E42510EA055E</generatorID>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="body" id="B9DBDA8F-873F-46D3-F531-717CE00AB787">
+<createdBy>danig</createdBy>
+<createdTime>2020-02-25 14:34:18 UTC</createdTime>
+<generatorID>60E76293-1B6C-C4F4-058B-FDC503169FBC</generatorID>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ticket_id" id="270FD8BA-2E4F-14CE-2616-F8E1CAF2667F">
+<createdBy>danig</createdBy>
+<createdTime>2020-02-25 14:34:18 UTC</createdTime>
+<generatorID>80CE3525-4A4A-1C3B-5C71-484A05F16467</generatorID>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="73FA2A00-8F6D-3444-9E50-3E31FB87DD26" referredColumn="77EADADA-A708-DD50-D4AD-65293BDC2810"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C7F7862B-A470-92F6-15BF-A102E4556536" name="Answer_PK">
+<createdBy>danig</createdBy>
+<createdTime>2020-02-25 14:34:18 UTC</createdTime>
+<generatorID>49E210C2-EC31-24C0-6A62-68A956B9C5C1</generatorID>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B4AEAF92-2D15-68B6-4233-B79033750D3C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C6521CC4-3175-D8B4-1542-2FDFF5E3F4BC" name="Answer_Ticket_FK">
+<createdBy>danig</createdBy>
+<createdTime>2020-02-25 14:34:18 UTC</createdTime>
+<generatorID>4EFC017E-75B9-A0FB-D195-D1511307B96B</generatorID>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="270FD8BA-2E4F-14CE-2616-F8E1CAF2667F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Search Made User FK" directorySegmentName="seg_0" id="49F14078-6673-F043-8ED6-4CED91713A34">
+<createdBy>danig</createdBy>
+<createdTime>2020-02-22 16:00:09 UTC</createdTime>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<engineerTo>
+<item key="76C9B098-9A30-9056-4719-DB8A0AEB359A" value="true"/>
+</engineerTo>
+<sourcePk>9AD04CC9-818E-F1C0-6A82-39AFC41FF51D</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>searched_by</nameOnSource>
+<nameOnTarget>searchs</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9E172300-F5EF-7745-FF09-CA83A9E7D1EF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8693B24E-0620-11F5-5274-A0AFC4147D39</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

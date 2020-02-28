@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="user_rols" directorySegmentName="seg_0" id="97479F8B-CF2D-7735-85CB-3D8A45270D7E">
+<createdBy>danig</createdBy>
+<createdTime>2020-02-22 15:19:02 UTC</createdTime>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<engineerTo>
+<item key="76C9B098-9A30-9056-4719-DB8A0AEB359A" value="true"/>
+</engineerTo>
+<sourcePk>CD31F898-B520-D0D7-F41B-DD22AAFDF519</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>rol</nameOnSource>
+<nameOnTarget>users</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>8AE24F7A-2716-C36C-33EF-8322C7EA71F9</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9E172300-F5EF-7745-FF09-CA83A9E7D1EF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

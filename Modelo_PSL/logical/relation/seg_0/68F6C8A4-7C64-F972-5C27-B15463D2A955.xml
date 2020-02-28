@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Historical Asignments Internal Ticket FK" directorySegmentName="seg_0" id="68F6C8A4-7C64-F972-5C27-B15463D2A955">
+<createdBy>danig</createdBy>
+<createdTime>2020-02-22 15:55:15 UTC</createdTime>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<engineerTo>
+<item key="76C9B098-9A30-9056-4719-DB8A0AEB359A" value="true"/>
+</engineerTo>
+<useSurrogateKey>true</useSurrogateKey>
+<identifying>false</identifying>
+<nameOnSource>ticket</nameOnSource>
+<nameOnTarget>old_assigments</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B7A469F3-9680-E9DE-55DB-9AEE0B2A9C8D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A233CCA8-D054-49E3-D09B-12B5D97E1D1B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

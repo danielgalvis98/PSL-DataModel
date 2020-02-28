@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4B35245B-05D9-D9FB-6BFC-BF496BC61218" containerWithKeyObject="0015EAE5-6FF3-43C4-4FAD-72C25A923F1B" localFKIndex="F0167299-43D2-2FED-36CA-B0E8BA778CB3" name="Historical_Asignments_Internal_Ticket_FK">
+<createdBy>danig</createdBy>
+<createdTime>2020-02-24 23:06:40 UTC</createdTime>
+<generatorID>68F6C8A4-7C64-F972-5C27-B15463D2A955</generatorID>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<referredTableLongName>Internal_Ticket</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CC504988-71E8-C86E-2668-FD665085AC11</referredTableID>
+<keyObject>A4CE0CE5-1E66-1A9C-88E5-5E3CCCB56825</keyObject>
+<referredKeyID>A4CE0CE5-1E66-1A9C-88E5-5E3CCCB56825</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Ticket_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

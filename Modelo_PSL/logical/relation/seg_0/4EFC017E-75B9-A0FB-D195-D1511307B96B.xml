@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Answer Ticket FK" directorySegmentName="seg_0" id="4EFC017E-75B9-A0FB-D195-D1511307B96B">
+<createdBy>danig</createdBy>
+<createdTime>2020-02-25 14:28:48 UTC</createdTime>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<engineerTo>
+<item key="76C9B098-9A30-9056-4719-DB8A0AEB359A" value="true"/>
+</engineerTo>
+<sourcePk>80B3208C-3726-FE15-D117-1B3E3A91F590</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>question</nameOnSource>
+<nameOnTarget>answer</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B864979A-725F-FB79-4BBF-C1D207D082D2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>EAC1A2F4-6C4F-31DA-094B-1764E0238682</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AC649107-DCFC-154E-47FE-035CEE29FC21" name="Ticket_State">
+<createdBy>danig</createdBy>
+<createdTime>2020-02-22 16:05:32 UTC</createdTime>
+<generatorID>4D851B31-9843-5F3B-DF8C-938B82295DB1</generatorID>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="1D78EEC5-D54D-8B19-E746-903A11304B03">
+<createdBy>danig</createdBy>
+<createdTime>2020-02-22 16:05:32 UTC</createdTime>
+<generatorID>73FDA06A-58EE-BD08-D8E6-7C00B829C003</generatorID>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="state_name" id="AEA0ACA3-D915-5500-17B5-41D4B682AC3A">
+<createdBy>danig</createdBy>
+<createdTime>2020-02-22 16:05:32 UTC</createdTime>
+<generatorID>3C4624B1-6703-B3FA-C4E6-562AF8778F66</generatorID>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3F0B6A57-7FAF-32EC-AA54-E46129A7A88D" name="Ticket_State_PK">
+<createdBy>danig</createdBy>
+<createdTime>2020-02-22 16:05:32 UTC</createdTime>
+<generatorID>2815EF64-165C-7A52-FD00-39AE84BDB6F3</generatorID>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D78EEC5-D54D-8B19-E746-903A11304B03"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

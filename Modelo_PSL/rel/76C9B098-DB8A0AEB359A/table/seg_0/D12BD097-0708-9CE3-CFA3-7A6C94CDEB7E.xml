@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D12BD097-0708-9CE3-CFA3-7A6C94CDEB7E" name="user_rols">
+<createdBy>danig</createdBy>
+<createdTime>2020-02-25 14:34:18 UTC</createdTime>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Rol_id_rol" id="E834C67E-6F11-B886-9018-9662680D7445">
+<createdBy>danig</createdBy>
+<createdTime>2020-02-25 14:34:18 UTC</createdTime>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="65ECC23C-7F06-6E75-8BCB-3D14EF1C6588" referredColumn="73F20541-ABB2-1ED7-FA08-A2E27C43BA58"/>
+</associations>
+</Column>
+<Column name="User_username" id="AC6E7152-7476-3560-1F9E-F80F831D7F1D">
+<createdBy>danig</createdBy>
+<createdTime>2020-02-25 14:34:18 UTC</createdTime>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B2998BB2-A561-92A7-99FA-1813464D3CA4" referredColumn="647EEC23-BB35-34CD-DA51-0AB66FDFD6C9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ECF9613F-2BF7-FD48-F619-D0E2B3D949AE" name="user_rols_PK">
+<createdBy>danig</createdBy>
+<createdTime>2020-02-25 14:34:18 UTC</createdTime>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E834C67E-6F11-B886-9018-9662680D7445"/>
+<colUsage columnID="AC6E7152-7476-3560-1F9E-F80F831D7F1D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2F774682-CD84-D7D0-428B-4DBDF081B65F" name="user_rols_Rol_FK">
+<createdBy>danig</createdBy>
+<createdTime>2020-02-25 14:34:18 UTC</createdTime>
+<generatorID>97479F8B-CF2D-7735-85CB-3D8A45270D7E</generatorID>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E834C67E-6F11-B886-9018-9662680D7445"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="126D41E7-A2B0-AB6C-FDD0-F792C24DFC08" name="user_rols_User_FK">
+<createdBy>danig</createdBy>
+<createdTime>2020-02-25 14:34:18 UTC</createdTime>
+<generatorID>97479F8B-CF2D-7735-85CB-3D8A45270D7E</generatorID>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC6E7152-7476-3560-1F9E-F80F831D7F1D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

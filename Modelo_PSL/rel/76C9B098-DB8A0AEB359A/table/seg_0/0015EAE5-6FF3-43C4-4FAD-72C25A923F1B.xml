@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0015EAE5-6FF3-43C4-4FAD-72C25A923F1B" name="Historical_Asignments">
+<createdBy>danig</createdBy>
+<createdTime>2020-02-22 16:05:32 UTC</createdTime>
+<generatorID>A233CCA8-D054-49E3-D09B-12B5D97E1D1B</generatorID>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_hist_assignment" id="DB886DD5-B581-7891-1FF2-09534CF7FB06">
+<createdBy>danig</createdBy>
+<createdTime>2020-02-22 16:05:32 UTC</createdTime>
+<generatorID>852E79A4-69DD-647F-20BA-505AE764B2E6</generatorID>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="reason_removed" id="90790CAF-D7DE-71A7-B290-CB480D4A1077">
+<createdBy>danig</createdBy>
+<createdTime>2020-02-22 16:05:32 UTC</createdTime>
+<generatorID>224AD002-DEDE-7EA8-B126-04293DD330FD</generatorID>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date_asigned" id="55A1043D-0FB2-5EC9-91E8-B257D39480D8">
+<createdBy>danig</createdBy>
+<createdTime>2020-02-22 16:05:32 UTC</createdTime>
+<generatorID>84BFEF4E-486C-974E-9BD0-404047B4E9DD</generatorID>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="User_username" id="9CA992F7-970C-6751-1869-BA8B0B756922">
+<createdBy>danig</createdBy>
+<createdTime>2020-02-25 14:38:23 UTC</createdTime>
+<generatorID>2C755293-7FA3-C46C-C47A-DE9260A291B8</generatorID>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7808F9A7-FA73-8CC4-B36B-666CDD849694" referredColumn="647EEC23-BB35-34CD-DA51-0AB66FDFD6C9"/>
+</associations>
+</Column>
+<Column name="date_removed" id="4869D182-F499-7C9C-A71E-A15B8738A0B6">
+<createdBy>danig</createdBy>
+<createdTime>2020-02-28 01:46:37 UTC</createdTime>
+<generatorID>84E40DAD-09AE-97EA-FB60-39B6CED3D290</generatorID>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Internal_Ticket_ticket_id" id="B19B57B7-12DB-205B-1A6A-CA82A1D38D48">
+<createdBy>danig</createdBy>
+<createdTime>2020-02-28 01:46:37 UTC</createdTime>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4B35245B-05D9-D9FB-6BFC-BF496BC61218" referredColumn="1DFED001-92A4-83EA-5BC4-14C9E7B3D235"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="434D067D-A99B-F417-16DB-786D31B06301" name="Historical_Asignments_PK">
+<createdBy>danig</createdBy>
+<createdTime>2020-02-22 16:05:32 UTC</createdTime>
+<generatorID>17867173-13DD-B9E9-AB81-747B76FF56D6</generatorID>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB886DD5-B581-7891-1FF2-09534CF7FB06"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F0167299-43D2-2FED-36CA-B0E8BA778CB3" name="Historical_Asignments_Internal_Ticket_FK">
+<createdBy>danig</createdBy>
+<createdTime>2020-02-24 23:06:40 UTC</createdTime>
+<generatorID>68F6C8A4-7C64-F972-5C27-B15463D2A955</generatorID>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B19B57B7-12DB-205B-1A6A-CA82A1D38D48"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5AF5A281-76D9-4E59-D5B3-3C51FC442EF0" name="Historical_Asignments_User_FK">
+<createdBy>danig</createdBy>
+<createdTime>2020-02-25 14:34:18 UTC</createdTime>
+<generatorID>D168D523-065D-F7AC-B061-E2022A79AF78</generatorID>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9CA992F7-970C-6751-1869-BA8B0B756922"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

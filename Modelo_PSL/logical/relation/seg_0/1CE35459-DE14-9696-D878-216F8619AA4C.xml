@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Internal Ticket User FK" directorySegmentName="seg_0" id="1CE35459-DE14-9696-D878-216F8619AA4C">
+<createdBy>danig</createdBy>
+<createdTime>2020-02-22 15:10:45 UTC</createdTime>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<engineerTo>
+<item key="76C9B098-9A30-9056-4719-DB8A0AEB359A" value="true"/>
+</engineerTo>
+<sourcePk>9AD04CC9-818E-F1C0-6A82-39AFC41FF51D</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>created_by</nameOnSource>
+<nameOnTarget>tickets_created</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9E172300-F5EF-7745-FF09-CA83A9E7D1EF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B7A469F3-9680-E9DE-55DB-9AEE0B2A9C8D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

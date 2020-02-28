@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7A0AEB4B-1957-1196-0D1B-24F67475DFA4" name="External Ticket">
+<createdBy>danig</createdBy>
+<createdTime>2020-02-22 14:55:09 UTC</createdTime>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<engineerTo>
+<item key="76C9B098-9A30-9056-4719-DB8A0AEB359A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Source id" id="30B2CCE5-668E-FB4E-4FF7-A94FBB1BF26D">
+<createdBy>danig</createdBy>
+<createdTime>2020-02-22 14:56:42 UTC</createdTime>
+<generatorID>928EE548-E560-0A47-5A8B-F544E0F54452</generatorID>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<engineerTo>
+<item key="76C9B098-9A30-9056-4719-DB8A0AEB359A" value="true"/>
+</engineerTo>
+<referedAttribute>9164F19B-358C-88B7-B3F5-3F83B2540348</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ticket id" directorySegmentName="seg_0" id="9ECF7BC9-DDC1-7A22-DD88-B4D3ADB6C8FE">
+<createdBy>danig</createdBy>
+<createdTime>2020-02-28 01:50:52 UTC</createdTime>
+<generatorID>10ADB72D-1D20-2F59-8759-1AFBE8A07A6F</generatorID>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<engineerTo>
+<item key="76C9B098-9A30-9056-4719-DB8A0AEB359A" value="true"/>
+</engineerTo>
+<referedAttribute>25A7CBF8-6CCE-9B37-372E-11B955003922</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="35032F57-8838-107B-1440-1C789A8587BF" name="External_Ticket_Source_source_id_Ticket_id_UN">
+<createdBy>danig</createdBy>
+<createdTime>2020-02-28 01:51:26 UTC</createdTime>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<engineerTo>
+<item key="76C9B098-9A30-9056-4719-DB8A0AEB359A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>30B2CCE5-668E-FB4E-4FF7-A94FBB1BF26D</attributeRef>
+<attributeRef>9ECF7BC9-DDC1-7A22-DD88-B4D3ADB6C8FE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

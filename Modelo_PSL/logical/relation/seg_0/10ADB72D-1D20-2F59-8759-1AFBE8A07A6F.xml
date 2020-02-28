@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="External Ticket Ticket FK" directorySegmentName="seg_0" id="10ADB72D-1D20-2F59-8759-1AFBE8A07A6F">
+<createdBy>danig</createdBy>
+<createdTime>2020-02-22 14:56:06 UTC</createdTime>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<engineerTo>
+<item key="76C9B098-9A30-9056-4719-DB8A0AEB359A" value="true"/>
+</engineerTo>
+<sourcePk>80B3208C-3726-FE15-D117-1B3E3A91F590</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>father</nameOnSource>
+<nameOnTarget>son</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B864979A-725F-FB79-4BBF-C1D207D082D2</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>7A0AEB4B-1957-1196-0D1B-24F67475DFA4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

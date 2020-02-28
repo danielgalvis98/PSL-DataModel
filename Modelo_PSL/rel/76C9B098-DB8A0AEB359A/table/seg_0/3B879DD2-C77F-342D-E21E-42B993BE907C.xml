@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3B879DD2-C77F-342D-E21E-42B993BE907C" name="External_Ticket">
+<createdBy>danig</createdBy>
+<createdTime>2020-02-22 16:05:32 UTC</createdTime>
+<generatorID>7A0AEB4B-1957-1196-0D1B-24F67475DFA4</generatorID>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Ticket_id" id="A36187A1-E909-5674-9739-2F3695D9B6DA">
+<createdBy>danig</createdBy>
+<createdTime>2020-02-28 01:52:24 UTC</createdTime>
+<generatorID>9ECF7BC9-DDC1-7A22-DD88-B4D3ADB6C8FE</generatorID>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="08271039-737E-85FC-9A64-AE5049D16B09" referredColumn="77EADADA-A708-DD50-D4AD-65293BDC2810"/>
+</associations>
+</Column>
+<Column name="Source_id" id="3E6858CE-CD5E-F5AE-D851-E9973115BFC2">
+<createdBy>danig</createdBy>
+<createdTime>2020-02-22 16:05:32 UTC</createdTime>
+<generatorID>30B2CCE5-668E-FB4E-4FF7-A94FBB1BF26D</generatorID>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5246D8FD-A05F-39F5-7F0E-DF173E43F6AA" referredColumn="4DD44481-CFDC-10BA-3913-B072123E8D90"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9557CD0D-CC9F-8CF5-05C6-1626D5000FE3" name="External_Ticket_Source_source_id_Ticket_id_UN">
+<createdBy>danig</createdBy>
+<createdTime>2020-02-28 01:52:24 UTC</createdTime>
+<generatorID>35032F57-8838-107B-1440-1C789A8587BF</generatorID>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A36187A1-E909-5674-9739-2F3695D9B6DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7093D518-C6A2-244B-F80F-B239138FB2C7" name="External_Ticket_PK">
+<createdBy>danig</createdBy>
+<createdTime>2020-02-24 23:06:40 UTC</createdTime>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="A36187A1-E909-5674-9739-2F3695D9B6DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2354525F-1BFF-C6F1-A7A9-AD5CFC5C4D35" name="External_Ticket__IDX">
+<createdBy>danig</createdBy>
+<createdTime>2020-02-28 01:52:24 UTC</createdTime>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>10ADB72D-1D20-2F59-8759-1AFBE8A07A6F</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="A36187A1-E909-5674-9739-2F3695D9B6DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F40A0D0B-00C3-553D-0DBF-28F840853DE2" name="External_Ticket_Source_FK">
+<createdBy>danig</createdBy>
+<createdTime>2020-02-24 23:06:40 UTC</createdTime>
+<generatorID>928EE548-E560-0A47-5A8B-F544E0F54452</generatorID>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3E6858CE-CD5E-F5AE-D851-E9973115BFC2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3269340A-3590-38EE-8FFA-A5F46A58FB1D" name="External_Ticket_Ticket_FK">
+<createdBy>danig</createdBy>
+<createdTime>2020-02-28 01:52:24 UTC</createdTime>
+<generatorID>10ADB72D-1D20-2F59-8759-1AFBE8A07A6F</generatorID>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A36187A1-E909-5674-9739-2F3695D9B6DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

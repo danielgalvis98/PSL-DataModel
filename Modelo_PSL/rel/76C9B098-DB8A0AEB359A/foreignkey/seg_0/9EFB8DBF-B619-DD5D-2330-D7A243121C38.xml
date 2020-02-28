@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9EFB8DBF-B619-DD5D-2330-D7A243121C38" containerWithKeyObject="CC504988-71E8-C86E-2668-FD665085AC11" localFKIndex="3D6097CC-BCD9-DACD-B055-0AAE55AFD167" name="Internal_Ticket_Enterprise_FK">
+<createdBy>danig</createdBy>
+<createdTime>2020-02-22 16:05:32 UTC</createdTime>
+<generatorID>06D2EAAD-A694-BF31-C4EB-DC8FF64B328C</generatorID>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<referredTableLongName>Enterprise</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0561A6BA-33C1-807D-F17C-BBEC731FFB7C</referredTableID>
+<keyObject>60A36A56-5FB9-6309-6135-631D87C17D00</keyObject>
+<referredKeyID>60A36A56-5FB9-6309-6135-631D87C17D00</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>NIT</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EC499B77-ED18-7ECE-43A2-01EFECA74766" name="Ticket">
+<createdBy>danig</createdBy>
+<createdTime>2020-02-22 16:05:32 UTC</createdTime>
+<generatorID>B864979A-725F-FB79-4BBF-C1D207D082D2</generatorID>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="77EADADA-A708-DD50-D4AD-65293BDC2810">
+<createdBy>danig</createdBy>
+<createdTime>2020-02-22 16:05:32 UTC</createdTime>
+<generatorID>25A7CBF8-6CCE-9B37-372E-11B955003922</generatorID>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="title" id="7608037E-F4AC-140B-E51E-021585430421">
+<createdBy>danig</createdBy>
+<createdTime>2020-02-22 16:05:32 UTC</createdTime>
+<generatorID>07A27061-80AD-CC85-BA1D-619A6923F94E</generatorID>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="B93F9658-34AB-ED15-F06E-8A80143522B4">
+<createdBy>danig</createdBy>
+<createdTime>2020-02-22 16:05:32 UTC</createdTime>
+<generatorID>3C78BB7A-B339-31C1-AA9D-CE2ABBCC16CC</generatorID>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="open_date" id="45DA6024-80C7-4CBD-2F62-9881A8C46485">
+<createdBy>danig</createdBy>
+<createdTime>2020-02-22 16:05:32 UTC</createdTime>
+<generatorID>4FAF10A5-9FF3-7C7B-2EDE-238E851BC4CD</generatorID>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id1" id="A7E2CCF1-6B24-9E57-9793-079A6CCA0E26">
+<createdBy>danig</createdBy>
+<createdTime>2020-02-22 16:05:32 UTC</createdTime>
+<generatorID>74703327-F3A9-CAF3-68AE-F9C75C680A69</generatorID>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CCB958F1-CAB3-40B8-D48E-ABAD4EA4E4B4" name="Ticket_PK">
+<createdBy>danig</createdBy>
+<createdTime>2020-02-22 16:05:32 UTC</createdTime>
+<generatorID>80B3208C-3726-FE15-D117-1B3E3A91F590</generatorID>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="77EADADA-A708-DD50-D4AD-65293BDC2810"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E155008C-AF99-A5DD-A76B-A5560CE9E2DB" name="Ticket__IDX">
+<createdBy>danig</createdBy>
+<createdTime>2020-02-24 23:06:40 UTC</createdTime>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>10ADB72D-1D20-2F59-8759-1AFBE8A07A6F</relationGeneratorID>
+</ind_PK_UK>
+<ind_PK_UK id="D2F84FFE-7FFD-102E-359C-2C219655CF8F" name="Ticket__IDX">
+<createdBy>danig</createdBy>
+<createdTime>2020-02-25 15:01:16 UTC</createdTime>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>10ADB72D-1D20-2F59-8759-1AFBE8A07A6F</relationGeneratorID>
+</ind_PK_UK>
+</indexes>
+</Table>
