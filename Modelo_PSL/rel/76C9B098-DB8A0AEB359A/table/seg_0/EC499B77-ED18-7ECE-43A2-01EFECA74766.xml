@@ -27,7 +27,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="description" id="B93F9658-34AB-ED15-F06E-8A80143522B4">
@@ -38,7 +39,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>400 CHAR</dataTypeSize>
+<ownDataTypeParameters>400 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="open_date" id="45DA6024-80C7-4CBD-2F62-9881A8C46485">
@@ -64,6 +66,56 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Entity_State_id" id="15CA5E68-D01E-735D-BE95-9471CA64FE78">
+<createdBy>danig</createdBy>
+<createdTime>2020-03-06 15:30:30 UTC</createdTime>
+<generatorID>5DE7F560-B1C3-23C4-52C9-A7B9C67A897B</generatorID>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D777B970-A3D5-1573-B6D7-4A369302968F" referredColumn="52CBAA28-120C-8E6F-DD8D-E8ADC47CAFC9"/>
+</associations>
+</Column>
+<Column name="close_date" id="4336BFEB-BF0F-36B7-2278-FBEB3F3490A8">
+<createdBy>danig</createdBy>
+<createdTime>2020-03-06 15:30:30 UTC</createdTime>
+<generatorID>76B089D9-DFDB-0E46-1DD9-41B29716EF1C</generatorID>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="is_answered" id="82CC5F36-828A-2D1B-F801-D64BAFBF8A1D">
+<createdBy>danig</createdBy>
+<createdTime>2020-03-06 15:30:30 UTC</createdTime>
+<generatorID>701C1E65-61DF-E194-8278-0DFE398A0C66</generatorID>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="last_activity_date" id="121C6434-2E7C-CED9-2F4C-C53A6AB735DB">
+<createdBy>danig</createdBy>
+<createdTime>2020-03-06 15:30:30 UTC</createdTime>
+<generatorID>2A37D90A-8781-F6D8-2BB2-EA707D0EAB84</generatorID>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="CCB958F1-CAB3-40B8-D48E-ABAD4EA4E4B4" name="Ticket_PK">
@@ -78,21 +130,16 @@
 <colUsage columnID="77EADADA-A708-DD50-D4AD-65293BDC2810"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="E155008C-AF99-A5DD-A76B-A5560CE9E2DB" name="Ticket__IDX">
+<ind_PK_UK id="833D0FB4-F30B-ADEF-67D2-992A8E1321D1" name="Ticket_Entity_State_FK">
 <createdBy>danig</createdBy>
-<createdTime>2020-02-24 23:06:40 UTC</createdTime>
+<createdTime>2020-03-06 15:30:30 UTC</createdTime>
+<generatorID>A9A8C486-3F2B-A8A6-1AAE-446D244B4547</generatorID>
 <ownerDesignName>Modelo_PSL</ownerDesignName>
-<indexState>Unique Plain Index</indexState>
+<indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
-<relationGeneratorID>10ADB72D-1D20-2F59-8759-1AFBE8A07A6F</relationGeneratorID>
-</ind_PK_UK>
-<ind_PK_UK id="D2F84FFE-7FFD-102E-359C-2C219655CF8F" name="Ticket__IDX">
-<createdBy>danig</createdBy>
-<createdTime>2020-02-25 15:01:16 UTC</createdTime>
-<ownerDesignName>Modelo_PSL</ownerDesignName>
-<indexState>Unique Plain Index</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<relationGeneratorID>10ADB72D-1D20-2F59-8759-1AFBE8A07A6F</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="15CA5E68-D01E-735D-BE95-9471CA64FE78"/>
+</indexColumnUsage>
 </ind_PK_UK>
 </indexes>
 </Table>

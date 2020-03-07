@@ -37,7 +37,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="description" id="3C78BB7A-B339-31C1-AA9D-CE2ABBCC16CC">
 <createdBy>danig</createdBy>
@@ -49,7 +50,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>400 CHAR</dataTypeSize>
+<ownDataTypeParameters>400 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="open date" id="4FAF10A5-9FF3-7C7B-2EDE-238E851BC4CD">
 <createdBy>danig</createdBy>
@@ -76,7 +78,7 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id2" id="5DE7F560-B1C3-23C4-52C9-A7B9C67A897B">
+<Attribute name="Entity State id" id="5DE7F560-B1C3-23C4-52C9-A7B9C67A897B">
 <createdBy>danig</createdBy>
 <createdTime>2020-02-28 03:23:21 UTC</createdTime>
 <generatorID>A9A8C486-3F2B-A8A6-1AAE-446D244B4547</generatorID>
@@ -88,6 +90,44 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="close date" id="76B089D9-DFDB-0E46-1DD9-41B29716EF1C">
+<createdBy>danig</createdBy>
+<createdTime>2020-03-06 15:17:23 UTC</createdTime>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<engineerTo>
+<item key="76C9B098-9A30-9056-4719-DB8A0AEB359A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="is answered" id="701C1E65-61DF-E194-8278-0DFE398A0C66">
+<createdBy>danig</createdBy>
+<createdTime>2020-03-06 15:18:05 UTC</createdTime>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<engineerTo>
+<item key="76C9B098-9A30-9056-4719-DB8A0AEB359A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="last activity date" id="2A37D90A-8781-F6D8-2BB2-EA707D0EAB84">
+<createdBy>danig</createdBy>
+<createdTime>2020-03-06 15:18:45 UTC</createdTime>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<engineerTo>
+<item key="76C9B098-9A30-9056-4719-DB8A0AEB359A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

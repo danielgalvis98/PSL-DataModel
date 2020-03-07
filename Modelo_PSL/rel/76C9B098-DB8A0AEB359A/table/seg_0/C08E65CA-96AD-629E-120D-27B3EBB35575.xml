@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C08E65CA-96AD-629E-120D-27B3EBB35575" name="Sources_Allowed">
+<createdBy>danig</createdBy>
+<createdTime>2020-03-06 15:30:30 UTC</createdTime>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Enterprise_NIT" id="338E7C94-58F7-A55D-BFC8-7F1C97FAD647">
+<createdBy>danig</createdBy>
+<createdTime>2020-03-06 15:30:30 UTC</createdTime>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0792284E-40B1-1FE2-4D7F-DD9316A540D8" referredColumn="2127A64E-E5E5-6276-BDEB-F99DA3EE495B"/>
+</associations>
+</Column>
+<Column name="Source_id" id="8C64529C-B294-49B5-E1AF-6B72E54ED5D6">
+<createdBy>danig</createdBy>
+<createdTime>2020-03-06 15:30:30 UTC</createdTime>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D43B2093-CD33-196F-84DB-3D6B98D3746D" referredColumn="4DD44481-CFDC-10BA-3913-B072123E8D90"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="19E411BA-A3B3-4DE2-968B-1564E3388D79" name="Relation_15_PK">
+<createdBy>danig</createdBy>
+<createdTime>2020-03-06 15:30:30 UTC</createdTime>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="338E7C94-58F7-A55D-BFC8-7F1C97FAD647"/>
+<colUsage columnID="8C64529C-B294-49B5-E1AF-6B72E54ED5D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="367850FE-DC25-3288-A984-0B71819C085A" name="Relation_15_Enterprise_FK">
+<createdBy>danig</createdBy>
+<createdTime>2020-03-06 15:30:30 UTC</createdTime>
+<generatorID>B69746E8-5763-7365-62EE-5E6D67CEB34C</generatorID>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="338E7C94-58F7-A55D-BFC8-7F1C97FAD647"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="853A4847-117F-1E3D-471F-D637B87502E2" name="Relation_15_Source_FK">
+<createdBy>danig</createdBy>
+<createdTime>2020-03-06 15:30:30 UTC</createdTime>
+<generatorID>B69746E8-5763-7365-62EE-5E6D67CEB34C</generatorID>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C64529C-B294-49B5-E1AF-6B72E54ED5D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -24,7 +24,6 @@
 <createdTime>2020-02-25 14:34:18 UTC</createdTime>
 <generatorID>FDEE9468-8F79-6006-8CE5-E42510EA055E</generatorID>
 <ownerDesignName>Modelo_PSL</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT006</logicalDatatype>
@@ -32,7 +31,7 @@
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="body" id="B9DBDA8F-873F-46D3-F531-717CE00AB787">
+<Column name="ans_body" id="B9DBDA8F-873F-46D3-F531-717CE00AB787">
 <createdBy>danig</createdBy>
 <createdTime>2020-02-25 14:34:18 UTC</createdTime>
 <generatorID>60E76293-1B6C-C4F4-058B-FDC503169FBC</generatorID>
@@ -40,7 +39,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>400 CHAR</dataTypeSize>
+<ownDataTypeParameters>400 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Ticket_id" id="270FD8BA-2E4F-14CE-2616-F8E1CAF2667F">
@@ -57,6 +57,17 @@
 <associations>
 <colAssociation fkAssociation="73FA2A00-8F6D-3444-9E50-3E31FB87DD26" referredColumn="77EADADA-A708-DD50-D4AD-65293BDC2810"/>
 </associations>
+</Column>
+<Column name="creation_date" id="53579391-AB5D-2778-475E-E8E8E3D7F958">
+<createdBy>danig</createdBy>
+<createdTime>2020-03-06 15:30:30 UTC</createdTime>
+<generatorID>15CF610B-15BE-E2D5-08AC-F8E0C279E1B3</generatorID>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">

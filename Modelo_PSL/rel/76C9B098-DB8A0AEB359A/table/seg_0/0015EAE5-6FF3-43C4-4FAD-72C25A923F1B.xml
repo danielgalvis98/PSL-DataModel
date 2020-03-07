@@ -27,7 +27,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="date_asigned" id="55A1043D-0FB2-5EC9-91E8-B257D39480D8">
@@ -49,7 +50,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -79,6 +81,21 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="4B35245B-05D9-D9FB-6BFC-BF496BC61218" referredColumn="1DFED001-92A4-83EA-5BC4-14C9E7B3D235"/>
+</associations>
+</Column>
+<Column name="Entity_State_id" id="E4CD2C59-ACEB-9E3F-45F9-AAD55F84C7F8">
+<createdBy>danig</createdBy>
+<createdTime>2020-03-06 15:30:30 UTC</createdTime>
+<generatorID>59F94B08-BF8E-BD58-355B-AA51CCFDDB44</generatorID>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BF62A89E-30FD-DF83-783F-E6DF4BA26288" referredColumn="52CBAA28-120C-8E6F-DD8D-E8ADC47CAFC9"/>
 </associations>
 </Column>
 </columns>
@@ -115,6 +132,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="9CA992F7-970C-6751-1869-BA8B0B756922"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="615D3492-4784-18A3-8173-84FD3397EC7E" name="Historical_Asignments_Entity_State_FK">
+<createdBy>danig</createdBy>
+<createdTime>2020-03-06 15:30:30 UTC</createdTime>
+<generatorID>900D09C7-73B2-EC5E-A2B2-33369ACAE9DD</generatorID>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E4CD2C59-ACEB-9E3F-45F9-AAD55F84C7F8"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

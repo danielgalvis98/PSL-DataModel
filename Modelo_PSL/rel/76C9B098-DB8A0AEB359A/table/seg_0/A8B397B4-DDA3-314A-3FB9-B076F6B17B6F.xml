@@ -27,8 +27,24 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Entity_State_id" id="B9A06B8D-ED1D-3A1B-D63E-C1B16C54F61A">
+<createdBy>danig</createdBy>
+<createdTime>2020-03-06 15:30:30 UTC</createdTime>
+<generatorID>27BD1230-EA59-8F2A-B17E-20EABBDDB011</generatorID>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="531AC6D3-9FE6-FA4C-0FC7-E5A57634BDAF" referredColumn="52CBAA28-120C-8E6F-DD8D-E8ADC47CAFC9"/>
+</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -42,6 +58,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="73F20541-ABB2-1ED7-FA08-A2E27C43BA58"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A0908BF9-2A86-595F-6A4A-4A89CF98F50F" name="Rol_Entity_State_FK">
+<createdBy>danig</createdBy>
+<createdTime>2020-03-06 15:30:30 UTC</createdTime>
+<generatorID>23C84553-E4E4-1A5D-29C0-D863302ECC70</generatorID>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B9A06B8D-ED1D-3A1B-D63E-C1B16C54F61A"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

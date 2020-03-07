@@ -37,7 +37,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="date asigned" id="84BFEF4E-486C-974E-9BD0-404047B4E9DD">
 <createdBy>danig</createdBy>
@@ -75,21 +76,10 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Internal Ticket ticket id" id="A3CB3160-F98D-6544-6F7E-13B4E716F360">
-<createdBy>danig</createdBy>
-<createdTime>2020-02-28 02:11:10 UTC</createdTime>
-<ownerDesignName>Modelo_PSL</ownerDesignName>
-<engineerTo>
-<item key="76C9B098-9A30-9056-4719-DB8A0AEB359A" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id" id="59F94B08-BF8E-BD58-355B-AA51CCFDDB44">
+<Attribute name="Entity State id" id="59F94B08-BF8E-BD58-355B-AA51CCFDDB44">
 <createdBy>danig</createdBy>
 <createdTime>2020-02-28 03:22:39 UTC</createdTime>
 <generatorID>900D09C7-73B2-EC5E-A2B2-33369ACAE9DD</generatorID>
@@ -98,6 +88,18 @@
 <item key="76C9B098-9A30-9056-4719-DB8A0AEB359A" value="true"/>
 </engineerTo>
 <referedAttribute>D0297F8A-BD07-48A3-F66E-F0E1F17C6B60</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Internal Ticket ticket id" id="1A807B9E-2142-4ACE-8462-4928A83495E1">
+<createdBy>danig</createdBy>
+<createdTime>2020-03-07 00:27:37 UTC</createdTime>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<engineerTo>
+<item key="76C9B098-9A30-9056-4719-DB8A0AEB359A" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>

@@ -15,19 +15,6 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="close date" id="538784E6-A931-15E5-09E4-5C05750A5F56">
-<createdBy>danig</createdBy>
-<createdTime>2020-02-22 15:02:40 UTC</createdTime>
-<ownerDesignName>Modelo_PSL</ownerDesignName>
-<engineerTo>
-<item key="76C9B098-9A30-9056-4719-DB8A0AEB359A" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="Ticket State id" id="ECD3617E-EB11-7374-CF7F-7B9348B60A5B">
 <createdBy>danig</createdBy>
 <createdTime>2020-02-22 15:09:28 UTC</createdTime>
@@ -54,9 +41,10 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="attended by" id="08818E5B-6DD0-FD82-8635-DEE81D210465">
+<Attribute name="User username" id="08818E5B-6DD0-FD82-8635-DEE81D210465">
 <createdBy>danig</createdBy>
 <createdTime>2020-02-22 15:11:06 UTC</createdTime>
 <generatorID>1CE35459-DE14-9696-D878-216F8619AA4C</generatorID>
@@ -69,9 +57,10 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="created by" id="2EF69749-DB2E-3910-F9DF-FD93D4816427">
+<Attribute name="User username1" id="2EF69749-DB2E-3910-F9DF-FD93D4816427">
 <createdBy>danig</createdBy>
 <createdTime>2020-02-25 14:13:44 UTC</createdTime>
 <generatorID>431FD00C-7928-E557-6D2D-E13E61495D8A</generatorID>
@@ -83,7 +72,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Ticket id" id="3533F69E-0F34-362D-5361-221A42C89EEC">
 <createdBy>danig</createdBy>
@@ -99,7 +89,7 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id" id="564DBE8D-4CAD-70B2-EFB3-121EE5AEA22B">
+<Attribute name="Prioridad id" id="564DBE8D-4CAD-70B2-EFB3-121EE5AEA22B">
 <createdBy>danig</createdBy>
 <createdTime>2020-02-28 03:06:46 UTC</createdTime>
 <generatorID>CDF45FBF-D759-D388-E6DB-BB8E075955E4</generatorID>
@@ -113,10 +103,10 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id1" id="E850A81E-372E-5AAC-0AD4-F41F284177BA">
+<Attribute name="Entity State id" id="99D8922D-C43A-45C1-B8A6-7CDA23B382BB">
 <createdBy>danig</createdBy>
-<createdTime>2020-02-28 03:22:52 UTC</createdTime>
-<generatorID>14FCC163-7414-54E3-CF0C-162366F24A2F</generatorID>
+<createdTime>2020-03-07 00:27:37 UTC</createdTime>
+<generatorID>8EBC47AA-E583-3648-65DE-69C38DEBD0E9</generatorID>
 <ownerDesignName>Modelo_PSL</ownerDesignName>
 <engineerTo>
 <item key="76C9B098-9A30-9056-4719-DB8A0AEB359A" value="true"/>
@@ -129,7 +119,7 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="FEE1C78F-4E32-DD5F-0413-35FCAE92BE50" name="Internal_Ticket_PKv1">
+<identifier id="FEE1C78F-4E32-DD5F-0413-35FCAE92BE50" name="Internal_Ticket_Ticket_id_UN">
 <createdBy>danig</createdBy>
 <createdTime>2020-02-28 01:35:37 UTC</createdTime>
 <ownerDesignName>Modelo_PSL</ownerDesignName>

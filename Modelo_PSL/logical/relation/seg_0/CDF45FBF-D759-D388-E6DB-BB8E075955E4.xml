@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Prioridad_tickets" directorySegmentName="seg_0" id="CDF45FBF-D759-D388-E6DB-BB8E075955E4">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Internal Ticket Prioridad FK" directorySegmentName="seg_0" id="CDF45FBF-D759-D388-E6DB-BB8E075955E4">
 <createdBy>danig</createdBy>
 <createdTime>2020-02-28 03:06:46 UTC</createdTime>
 <ownerDesignName>Modelo_PSL</ownerDesignName>

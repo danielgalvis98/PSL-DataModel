@@ -23,18 +23,6 @@
 <colAssociation fkAssociation="B7E891E6-4FF4-7E52-79AB-2196A37ED90D" referredColumn="77EADADA-A708-DD50-D4AD-65293BDC2810"/>
 </associations>
 </Column>
-<Column name="close_date" id="CB8DE9E1-1312-B96C-A536-3F1CC12CE78A">
-<createdBy>danig</createdBy>
-<createdTime>2020-02-22 16:05:32 UTC</createdTime>
-<generatorID>538784E6-A931-15E5-09E4-5C05750A5F56</generatorID>
-<ownerDesignName>Modelo_PSL</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="Ticket_State_id" id="BC5D5EEF-BA4F-EBD0-209E-C7CF89059D9D">
 <createdBy>danig</createdBy>
 <createdTime>2020-02-22 16:05:32 UTC</createdTime>
@@ -58,6 +46,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -65,7 +54,7 @@
 <colAssociation fkAssociation="9EFB8DBF-B619-DD5D-2330-D7A243121C38" referredColumn="2127A64E-E5E5-6276-BDEB-F99DA3EE495B"/>
 </associations>
 </Column>
-<Column name="attended_by" id="71482E78-9774-F5D3-76AE-6C29B1E8F2C4">
+<Column name="User_username" id="71482E78-9774-F5D3-76AE-6C29B1E8F2C4">
 <createdBy>danig</createdBy>
 <createdTime>2020-02-22 16:05:32 UTC</createdTime>
 <generatorID>08818E5B-6DD0-FD82-8635-DEE81D210465</generatorID>
@@ -74,6 +63,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -81,7 +71,7 @@
 <colAssociation fkAssociation="2DC745C9-DA21-AAB1-3857-D49364EC2160" referredColumn="647EEC23-BB35-34CD-DA51-0AB66FDFD6C9"/>
 </associations>
 </Column>
-<Column name="created_by" id="DD3E39B3-CA84-94B8-4EBF-3E2414E561A1">
+<Column name="User_username2" id="DD3E39B3-CA84-94B8-4EBF-3E2414E561A1">
 <createdBy>danig</createdBy>
 <createdTime>2020-02-25 14:38:23 UTC</createdTime>
 <generatorID>2EF69749-DB2E-3910-F9DF-FD93D4816427</generatorID>
@@ -89,6 +79,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -96,25 +87,55 @@
 <colAssociation fkAssociation="2ED89757-A077-85A6-3574-2410F107F1E2" referredColumn="647EEC23-BB35-34CD-DA51-0AB66FDFD6C9"/>
 </associations>
 </Column>
+<Column name="Prioridad_id" id="F886F7EB-8D8E-DAFE-EF8B-F8EE114F5E60">
+<createdBy>danig</createdBy>
+<createdTime>2020-03-06 15:30:30 UTC</createdTime>
+<generatorID>564DBE8D-4CAD-70B2-EFB3-121EE5AEA22B</generatorID>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1D1E45FB-960F-CB16-3CBD-3168C4653D9B" referredColumn="5AEDB50B-83E0-6D18-0E6D-00F44F9051CB"/>
+</associations>
+</Column>
+<Column name="Entity_State_id" id="D9E36528-272C-12FA-AAEA-97EA0072BF72">
+<createdBy>danig</createdBy>
+<createdTime>2020-03-06 15:30:30 UTC</createdTime>
+<generatorID>E850A81E-372E-5AAC-0AD4-F41F284177BA</generatorID>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="36FD3C3A-9874-2836-3C83-A459ABAD966A" referredColumn="52CBAA28-120C-8E6F-DD8D-E8ADC47CAFC9"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="503AC306-CB07-0371-DE3E-826AE36C61C7" name="Internal_Ticket_PKv1">
-<createdBy>danig</createdBy>
-<createdTime>2020-02-28 01:46:37 UTC</createdTime>
-<generatorID>FEE1C78F-4E32-DD5F-0413-35FCAE92BE50</generatorID>
-<ownerDesignName>Modelo_PSL</ownerDesignName>
-<pk>true</pk>
-<indexState>Primary Constraint</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="1DFED001-92A4-83EA-5BC4-14C9E7B3D235"/>
-</indexColumnUsage>
-</ind_PK_UK>
 <ind_PK_UK id="A4CE0CE5-1E66-1A9C-88E5-5E3CCCB56825" name="Internal_Ticket_PK">
 <createdBy>danig</createdBy>
 <createdTime>2020-02-24 23:06:40 UTC</createdTime>
 <ownerDesignName>Modelo_PSL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="1DFED001-92A4-83EA-5BC4-14C9E7B3D235"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="503AC306-CB07-0371-DE3E-826AE36C61C7" name="Internal_Ticket_Ticket_id_UN">
+<createdBy>danig</createdBy>
+<createdTime>2020-02-28 01:46:37 UTC</createdTime>
+<generatorID>FEE1C78F-4E32-DD5F-0413-35FCAE92BE50</generatorID>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
 <indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="1DFED001-92A4-83EA-5BC4-14C9E7B3D235"/>
 </indexColumnUsage>
@@ -183,6 +204,28 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="1DFED001-92A4-83EA-5BC4-14C9E7B3D235"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C511CBF1-422C-9AB3-5972-9A8989957D6C" name="Internal_Ticket_Prioridad_FK">
+<createdBy>danig</createdBy>
+<createdTime>2020-03-06 15:30:30 UTC</createdTime>
+<generatorID>CDF45FBF-D759-D388-E6DB-BB8E075955E4</generatorID>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F886F7EB-8D8E-DAFE-EF8B-F8EE114F5E60"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="96EEA191-6267-6185-E98D-A10B1E31D696" name="Internal_Ticket_Entity_State_FK">
+<createdBy>danig</createdBy>
+<createdTime>2020-03-06 15:30:30 UTC</createdTime>
+<generatorID>14FCC163-7414-54E3-CF0C-162366F24A2F</generatorID>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D9E36528-272C-12FA-AAEA-97EA0072BF72"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

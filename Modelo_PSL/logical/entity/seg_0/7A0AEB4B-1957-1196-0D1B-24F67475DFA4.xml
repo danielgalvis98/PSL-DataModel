@@ -43,9 +43,34 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="link" id="6D9F8B44-9CBA-5024-2F6D-134004154FFF">
+<createdBy>danig</createdBy>
+<createdTime>2020-03-06 15:19:18 UTC</createdTime>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<engineerTo>
+<item key="76C9B098-9A30-9056-4719-DB8A0AEB359A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="score" id="32124D9D-0B42-EF89-7F71-8288C5D06B55">
+<createdBy>danig</createdBy>
+<createdTime>2020-03-06 15:23:32 UTC</createdTime>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<engineerTo>
+<item key="76C9B098-9A30-9056-4719-DB8A0AEB359A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="35032F57-8838-107B-1440-1C789A8587BF" name="External_Ticket_Source_source_id_Ticket_id_UN">
+<identifier id="35032F57-8838-107B-1440-1C789A8587BF" name="External_Ticket_PKv1">
 <createdBy>danig</createdBy>
 <createdTime>2020-02-28 01:51:26 UTC</createdTime>
 <ownerDesignName>Modelo_PSL</ownerDesignName>

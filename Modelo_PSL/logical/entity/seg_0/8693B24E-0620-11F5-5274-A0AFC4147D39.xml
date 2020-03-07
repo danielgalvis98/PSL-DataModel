@@ -51,7 +51,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="date" id="9D64D080-7DB2-FA9D-0787-3671FD3188A4">
 <createdBy>danig</createdBy>

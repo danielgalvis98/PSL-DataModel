@@ -37,9 +37,10 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id1" id="862591CB-1549-86AA-8A72-A715EC4C1658">
+<Attribute name="Entity State id" id="862591CB-1549-86AA-8A72-A715EC4C1658">
 <createdBy>danig</createdBy>
 <createdTime>2020-02-28 03:23:48 UTC</createdTime>
 <generatorID>BECA67E3-825E-D085-2FF9-1981F7F418CF</generatorID>

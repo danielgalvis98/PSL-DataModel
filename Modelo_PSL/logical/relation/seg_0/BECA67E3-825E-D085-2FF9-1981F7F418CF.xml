@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_27" directorySegmentName="seg_0" id="BECA67E3-825E-D085-2FF9-1981F7F418CF">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Source Entity State FK" directorySegmentName="seg_0" id="BECA67E3-825E-D085-2FF9-1981F7F418CF">
 <createdBy>danig</createdBy>
 <createdTime>2020-02-28 03:23:48 UTC</createdTime>
 <ownerDesignName>Modelo_PSL</ownerDesignName>

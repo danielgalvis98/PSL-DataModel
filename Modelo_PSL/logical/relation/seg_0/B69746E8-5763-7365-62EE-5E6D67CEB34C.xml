@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_15" directorySegmentName="seg_0" id="B69746E8-5763-7365-62EE-5E6D67CEB34C">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Sources_Allowed" directorySegmentName="seg_0" id="B69746E8-5763-7365-62EE-5E6D67CEB34C">
 <createdBy>danig</createdBy>
 <createdTime>2020-02-28 03:02:16 UTC</createdTime>
 <ownerDesignName>Modelo_PSL</ownerDesignName>

@@ -37,9 +37,10 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id1" id="A66524FC-AAB5-1F1D-2DA3-FD0E83668BAE">
+<Attribute name="Entity State id" id="A66524FC-AAB5-1F1D-2DA3-FD0E83668BAE">
 <createdBy>danig</createdBy>
 <createdTime>2020-02-28 03:23:40 UTC</createdTime>
 <generatorID>CB5F43C3-08B5-9943-6F07-8E3CF6DDD3E8</generatorID>
@@ -59,8 +60,9 @@
 <createdBy>danig</createdBy>
 <createdTime>2020-02-28 03:05:53 UTC</createdTime>
 <ownerDesignName>Modelo_PSL</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="76C9B098-9A30-9056-4719-DB8A0AEB359A" value="true"/>
+<item key="76C9B098-9A30-9056-4719-DB8A0AEB359A" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

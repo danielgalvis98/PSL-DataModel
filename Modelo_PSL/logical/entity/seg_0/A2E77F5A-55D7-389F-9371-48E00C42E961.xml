@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A2E77F5A-55D7-389F-9371-48E00C42E961" name="General_Parameters">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A2E77F5A-55D7-389F-9371-48E00C42E961" name="General Parameters">
 <createdBy>danig</createdBy>
 <createdTime>2020-02-28 03:17:01 UTC</createdTime>
 <ownerDesignName>Modelo_PSL</ownerDesignName>
@@ -25,7 +25,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="value" id="A0034631-7047-1C3A-8BA1-83CB2EEEE46A">
 <createdBy>danig</createdBy>
@@ -37,16 +38,18 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="45522CF7-384A-4FA1-649F-4EC7D24AD049" name="General_Parameters PK">
+<identifier id="45522CF7-384A-4FA1-649F-4EC7D24AD049" name="General_Parameters_PK">
 <createdBy>danig</createdBy>
 <createdTime>2020-02-28 03:17:16 UTC</createdTime>
 <ownerDesignName>Modelo_PSL</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="76C9B098-9A30-9056-4719-DB8A0AEB359A" value="true"/>
+<item key="76C9B098-9A30-9056-4719-DB8A0AEB359A" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

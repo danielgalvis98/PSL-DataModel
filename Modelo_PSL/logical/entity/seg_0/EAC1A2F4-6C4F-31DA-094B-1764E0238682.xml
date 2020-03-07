@@ -34,14 +34,13 @@
 <engineerTo>
 <item key="76C9B098-9A30-9056-4719-DB8A0AEB359A" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT006</logicalDatatype>
 <dataTypeSize>1</dataTypeSize>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="body" id="60E76293-1B6C-C4F4-058B-FDC503169FBC">
+<Attribute name="ans body" id="60E76293-1B6C-C4F4-058B-FDC503169FBC">
 <createdBy>danig</createdBy>
 <createdTime>2020-02-25 14:28:07 UTC</createdTime>
 <ownerDesignName>Modelo_PSL</ownerDesignName>
@@ -51,7 +50,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>400 CHAR</dataTypeSize>
+<ownDataTypeParameters>400 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Ticket id" id="80CE3525-4A4A-1C3B-5C71-484A05F16467">
 <createdBy>danig</createdBy>
@@ -65,6 +65,18 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="creation date" id="15CF610B-15BE-E2D5-08AC-F8E0C279E1B3">
+<createdBy>danig</createdBy>
+<createdTime>2020-03-06 15:20:28 UTC</createdTime>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<engineerTo>
+<item key="76C9B098-9A30-9056-4719-DB8A0AEB359A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

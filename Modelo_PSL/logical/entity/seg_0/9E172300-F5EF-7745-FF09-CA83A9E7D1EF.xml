@@ -25,7 +25,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="password" id="7B1EA21D-A35F-2B89-03F9-5FE45973CDFB">
 <createdBy>danig</createdBy>
@@ -37,7 +38,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="name" id="7A918B21-DB7B-BEA0-A5EE-DFA677474AC5">
 <createdBy>danig</createdBy>
@@ -49,7 +51,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="last name" id="DE361FAA-CED4-C6D0-3D20-C43CBCC044B3">
 <createdBy>danig</createdBy>
@@ -61,7 +64,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="email" id="39322922-1740-D6B4-C8F6-671B8DBFCA12">
 <createdBy>danig</createdBy>
@@ -73,9 +77,10 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id" id="540862A5-8CA1-88C5-1EF1-AD6ECCFBD348">
+<Attribute name="Entity State id" id="540862A5-8CA1-88C5-1EF1-AD6ECCFBD348">
 <createdBy>danig</createdBy>
 <createdTime>2020-02-28 03:23:15 UTC</createdTime>
 <generatorID>E5EFB661-9282-9E23-46DD-D784942AE225</generatorID>
@@ -88,6 +93,20 @@
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="api key" id="EF502E51-AA2C-1B8D-9869-33C8C8A8AE06">
+<createdBy>danig</createdBy>
+<createdTime>2020-03-06 15:09:43 UTC</createdTime>
+<ownerDesignName>Modelo_PSL</ownerDesignName>
+<engineerTo>
+<item key="76C9B098-9A30-9056-4719-DB8A0AEB359A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

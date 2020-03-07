@@ -1,7 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_21" directorySegmentName="seg_0" id="14FCC163-7414-54E3-CF0C-162366F24A2F">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Internal_Ticket_Entity_State_FK" directorySegmentName="seg_0" id="8EBC47AA-E583-3648-65DE-69C38DEBD0E9">
 <createdBy>danig</createdBy>
-<createdTime>2020-02-28 03:22:52 UTC</createdTime>
+<createdTime>2020-03-07 00:27:37 UTC</createdTime>
+<generatorID>36FD3C3A-9874-2836-3C83-A459ABAD966A</generatorID>
 <ownerDesignName>Modelo_PSL</ownerDesignName>
 <engineerTo>
 <item key="76C9B098-9A30-9056-4719-DB8A0AEB359A" value="true"/>

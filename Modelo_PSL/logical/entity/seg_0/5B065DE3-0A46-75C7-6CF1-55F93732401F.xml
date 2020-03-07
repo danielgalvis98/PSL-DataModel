@@ -25,7 +25,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Name" id="51A722BB-0E19-6589-C78B-AE7AC54277DE">
 <createdBy>danig</createdBy>
@@ -37,7 +38,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="contact phone" id="B0F2A7A5-CD30-0324-3165-5B56C41472AA">
 <createdBy>danig</createdBy>
@@ -49,7 +51,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="contact mail" id="AA7445F3-61D0-C0CB-9B70-47A276C6C394">
 <createdBy>danig</createdBy>
@@ -61,7 +64,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="description" id="1CB745CC-EC1F-5C23-D290-CB0A0CD600AD">
 <createdBy>danig</createdBy>
@@ -73,9 +77,10 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id" id="E9861BB8-9DAD-6681-5771-0F93A80C15FE">
+<Attribute name="Entity State id" id="E9861BB8-9DAD-6681-5771-0F93A80C15FE">
 <createdBy>danig</createdBy>
 <createdTime>2020-02-28 03:22:17 UTC</createdTime>
 <generatorID>14F174DA-EC8B-65DC-CEEA-61F4ED41FE55</generatorID>
